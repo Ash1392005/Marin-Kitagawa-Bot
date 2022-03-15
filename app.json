@@ -12,49 +12,49 @@
       "whatsapp-botto"
   ],
   "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com/Asmith007/Marin-Kitagawa-git",
+  "repository": "https://github.com/Chey-san/Marin-Kitagawa-git",
   "logo": "https://www.linkpicture.com/q/IMG-20220303-WA0752.jpg",
   "success_url": "/",
   "env": {
       "PREFIX": {
-          "description": "#"
+          "description": "Prefix of your bot"
       },
       "SESSION": {
-          "description": "07"
+          "description": "A string for the session to be classified and to get access to the server endpoints"
       },
       "MODS": {
-          "description": "916003181423"
+          "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
           "required": false
       },
       "CRON": {
-          "description": "0",
+          "description": "Cron string to clear chats in a cycle",
           "required": false
       },
       "MONGO_URI": {
-          "description": "mongodb+srv://Asmith:asmith123@cluster0.x7uqz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+          "description": "A secret String for Mongodb Connection.(Required)"
       },
       "GOOGLE_API_KEY": {
-          "description": "AIzaSyB3D-VzOkloaxuGvlPNUL3gAi-YEWIEsNU",
+          "description": "Google API key for Google searches (Not Required)",
           "required": false
       },
       "CHAT_BOT_URL": {
-          "description": "http://api.brainshop.ai/get?bid=164227&key=0LsnywTT8Sk5MpCY&uid=[uid]&msg=[msg]",
+          "description": "BrainShop API Brain url",
           "required": false
       },
       "TENOR_API_KEY": {
-          "description": "5O7AZ5ZC9PSH",
+          "description": "A key used for gif searches",
           "required": false
       },
       "GENIUS_KEY": {
-          "description": "bgb903JAlvsn1gK_A8DqiWolSISzuNgmrfhhdaz_opMw0DC2qwR__y-",
+          "description": "Your access token of genius.com to fetch the lyrics",
           "required": false
       },
       "MAL_USERNAME": {
-          "description": "Asmith07",
+          "description": "Your username for myanimelist.net to make anime and manga search",
           "required": false
       },
       "MAL_PASSWORD": {
-          "description": "asmith123",
+          "description": "Your password for myanimelist.net to make anime and manga search",
           "required": false
       }
   },
